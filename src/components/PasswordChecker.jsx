@@ -48,9 +48,13 @@ class PasswordChecker extends React.Component {
         charVarient = "success";
         passwordStrength = 50;
         break;
-      case passwordLength > 11:
+      case passwordLength < 16:
         charVarient = "success";
         passwordStrength = 70;
+        break;
+      case passwordLength > 15:
+        charVarient = "success";
+        passwordStrength = 100;
         break;
       default:
         passwordStrength = 0;
