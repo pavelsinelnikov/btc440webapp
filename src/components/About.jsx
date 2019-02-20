@@ -1,13 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
+import Content from "./Content";
 
-class About extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return <h1>About Page</h1>;
-  }
-}
+const About = () => {
+  return (
+    <div className="App">
+      <main>
+        <Content
+          title="About Me"
+          content="I love designing and creating webpages. This webpage was made with: React and Bootstrap"
+        />
+      </main>
+    </div>
+  );
+};
 
 export default About;

@@ -15,12 +15,12 @@ const Footer = () => {
             <h3>Social Media</h3>
             <ul className="list-unstyled">
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/pavel-sinelnikov-320385146">
                   <i class="fab fa-linkedin fa-3x" />
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://github.com/pavelsinelnikov">
                   <i class="fab fa-github-square fa-3x" />
                 </a>
               </li>
@@ -28,9 +28,10 @@ const Footer = () => {
           </Col>
         </Row>
         <Row bsPrefix="footer-copyright text-center py-3">
-          <Col>Copyright Pavel Sinelnikov</Col>
+          <Col />
         </Row>
       </Container>
+      <div className="created">Created by Pavel Sinelnikov</div>
     </footer>
   );
 };
