@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Col, Row, Figure } from "react-bootstrap";
 
-const Content = ({ title, imgsrc, alttxt, content }) => {
+const Content = ({ title, imgsrc, alttxt ,source, content }) => {
   return (
     <Container>
       <Row>
         <Col>
-          <h2>{title}</h2>
+          {title && <h2>{title}</h2>}
           {content && <p>{content}</p>}
         </Col>
       </Row>
@@ -20,7 +20,7 @@ const Content = ({ title, imgsrc, alttxt, content }) => {
                 alt={alttxt}
                 src={imgsrc}
               />
-              <Figure.Caption>{alttxt}</Figure.Caption>
+              <Figure.Caption>{source}</Figure.Caption>
             </Figure>
           </Col>
         </Row>

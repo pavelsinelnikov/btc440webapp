@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import PropTypes from "prop-types";
 
 const Header = () => {
   return (
@@ -24,7 +23,5 @@ const Header = () => {
     </header>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;

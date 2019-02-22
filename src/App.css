@@ -95,3 +95,19 @@ p {
   color: lightblue;
   text-decoration: none;
 }
+
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 720px;
+  }
+}
+
+.bulletcontentlist {
+  margin: 0 0 0 -35px;
+}
+
+@media only screen and (max-width: 346px) {
+  footer {
+    height: 400px;
+  }
+}

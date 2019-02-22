@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
-import PropTypes from "prop-types";
 
 const Footer = () => {
   return (
@@ -16,12 +15,12 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <a href="https://www.linkedin.com/in/pavel-sinelnikov-320385146">
-                  <i class="fab fa-linkedin fa-3x" />
+                  <i className="fab fa-linkedin fa-3x" />
                 </a>
               </li>
               <li>
                 <a href="https://github.com/pavelsinelnikov">
-                  <i class="fab fa-github-square fa-3x" />
+                  <i className="fab fa-github-square fa-3x" />
                 </a>
               </li>
             </ul>
@@ -35,7 +34,5 @@ const Footer = () => {
     </footer>
   );
 };
-
-Footer.propTypes = {};
 
 export default Footer;
