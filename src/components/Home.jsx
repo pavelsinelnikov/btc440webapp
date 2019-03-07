@@ -76,10 +76,10 @@ const Home = () => {
             title="References"
             content={[
               "Foltýn, T. (2018, December 17). The Most Popular Passwords of 2018 revealed: Are Yours on the List? 	Retrieved from https://www.welivesecurity.com/ 2018/12/17/most-popular-passwords-2018-revealed/",
-              "Larson, S. (2017, October 4). Every single Yahoo account was hacked-3 billion in all Retrieved from https://money.cnn.com/ 2017/10/03/technology/business/yahoo-breach-3-billion-accounts/index.html",
+              "Larson, S. (2017, October 4). Every single Yahoo account was hacked-3 billion in all. Retrieved from https://money.cnn.com/ 2017/10/03/technology/business/yahoo-breach-3-billion-accounts/index.html",
               "Newman, L. (2017, Sept 14). Equifax Officially has no Excuse. Retrieved from https://www.wired.com/story/equifax-breach-no-excuse/",
               "Szczys, M. (2012, December 6). 25 Gpus Brute Force 348 Billion Hashes per Second to Crack Your Passwords. Retrieved from https://hackaday.com/2012/12/06/25-gpus-brute-force-348-billion-hashes-per-second-to-crack-your-passwords/",
-              "Zane (2018, July 13). Password Security Report: 83% of Users Surveyed Use the Same Password for Multiple Sites Retrieved from https://www.cyclonis.com/report-83-percent-users-surveyed-use-same-password-multiple-sites/"
+              "Zane (2018, July 13). Password Security Report: 83% of Users Surveyed Use the Same Password for Multiple Sites. Retrieved from https://www.cyclonis.com/report-83-percent-users-surveyed-use-same-password-multiple-sites/"
             ]}
           />
         </Container>
