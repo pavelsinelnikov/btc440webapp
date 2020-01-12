@@ -104,7 +104,7 @@ class PasswordChecker extends React.Component {
     } = this.state;
     return (
       <div>
-        <h3>Test your password</h3>
+        <h3>Test Your Password Strength</h3>
         <InputGroup className="mb-3">
           <FormControl
             placeholder="Password"
